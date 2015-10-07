@@ -21,13 +21,13 @@ public class UserServices {
 	/** GetUser */
 	@GET
 	public void getUser() {
-		System.err.println("INSIDE GETUSER METHOD!!");
+		System.err.println("INSIDE GET_USER METHOD!!");
 	}
 	
 	/** UpdateUser */
 	@POST
 	public void updateUser() {
-		System.out.println("INSIDE UPDATE_USER METHOD!!");
+		System.out.println("INSIDE UPDATE_USER METHOD!");
 	}
 	
 	/** DeleteUser */
