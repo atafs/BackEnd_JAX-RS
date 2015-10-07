@@ -1,0 +1,5 @@
+//BACKEND SERVER
+http://localhost:8085/RESTfullWebService_01/backend/user/service
+
+//FRONTEND CLIENT
+http://localhost:8085/RESTfullWebService_02_CLIENT_Javascript/client.jsp
