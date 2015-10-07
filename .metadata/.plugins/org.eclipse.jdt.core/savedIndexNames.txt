@@ -1,0 +1,15 @@
+INDEX VERSION 1.127+D:\clouds\Drive Ilimitado\BackEnd_REST_httpCall_getData_doSomething\.metadata\.plugins\org.eclipse.jdt.core
+1658907674.index
+605360414.index
+571607264.index
+3052967779.index
+3997045071.index
+1036000617.index
+4150475397.index
+1408157611.index
+433679575.index
+3366187464.index
+3242164120.index
+943404421.index
+2041816860.index
+3148647957.index

@@ -1,0 +1,30 @@
+package com.service.user;
+
+public class SpecialUser {
+	
+	//METHODS
+	/** */
+	@PUT
+	public void createSpecialUser() {
+		
+	}
+	
+	/** */
+	@GET
+	public void getSpecialUser() {
+		
+	}
+	
+	/** */
+	@POST
+	public void updateSpecialUser() {
+		
+	}
+	
+	/** */
+	@DELETE
+	public void deleteSpecialUser() {
+		
+	}
+
+}

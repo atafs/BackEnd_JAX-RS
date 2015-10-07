@@ -1,0 +1,30 @@
+package com.service.user;
+
+import javax.ws.rs.Path;
+
+//URI
+@Path("/user/service")
+public class UserServices {
+	
+	//CRUD: this class belong to the above URI
+	/** */
+	public void createUser() {
+		
+	}
+	
+	/** */
+	public void getUser() {
+		
+	}
+	
+	/** */
+	public void updateUser() {
+		
+	}
+	
+	/** */
+	public void deleteUser() {
+		
+	}
+
+}
