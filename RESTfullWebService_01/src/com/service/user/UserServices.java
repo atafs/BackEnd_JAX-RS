@@ -15,7 +15,8 @@ public class UserServices {
 	@PUT 
 	@Path("/create")
 	public void createUser() {
-		
+		System.err.println("INSIDE CREATE_USER METHOD!!");
+
 	}
 	
 	/** GetUser */
@@ -33,7 +34,7 @@ public class UserServices {
 	/** DeleteUser */
 	@DELETE
 	public void deleteUser() {
-		
+		System.out.println("INSIDE DELETE_USER METHOD!");
 	}
 	
 	/** DeleteUser */

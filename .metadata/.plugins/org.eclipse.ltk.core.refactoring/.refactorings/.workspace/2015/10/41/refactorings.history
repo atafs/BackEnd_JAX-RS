@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;RESTfullWebService_02_CLIENT&apos; to &apos;RESTfullWebService_02_CLIENT_Javascript&apos;" description="Rename resource &apos;RESTfullWebService_02_CLIENT&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/RESTfullWebService_02_CLIENT" name="RESTfullWebService_02_CLIENT_Javascript" stamp="1444256177740" updateReferences="true"/>
+</session>

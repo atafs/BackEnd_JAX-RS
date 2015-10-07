@@ -15,6 +15,6 @@ public class SpecialUser {
 	/** */
 	@GET
 	public void getSpecialUser() {
-		
+		System.out.println("INSIDE getSpecialUser_USER METHOD!");
 	}
 }
