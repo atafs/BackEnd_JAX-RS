@@ -10,9 +10,9 @@
 <workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1448309545583_4" label="Server" name="Server">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Servers" type="4"/>
 </workingSet>
-<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1448310105487_7" label="WS_REST_APP_02" name="WS_REST_APP_02">
-<item elementID="=ws_restfull_01" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ws_restfull_library" type="4"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1448310105487_7" label="WS_REST_APP_02_messageAPP" name="WS_REST_APP_02_messageAPP">
+<item elementID="=_02WS_REST_APP_01_messageAPP" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/_02WS_REST_APP_messageAPP_library" type="4"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1444189473064_0" label="Window Working Set" name="Aggregate for window 1444189473064"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1448310106766_8" label="Multiple Working Sets" name="Aggregate:Server:WS_REST_APP_01:">
@@ -22,7 +22,7 @@
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1448310274660_12" label="Multiple Working Sets" name="Aggregate:Server:WS_REST_APP_01:WS_REST_APP_02:">
 <workingSet IMemento.internal.id="Server"/>
 <workingSet IMemento.internal.id="WS_REST_APP_01"/>
-<workingSet IMemento.internal.id="WS_REST_APP_02"/>
+<workingSet IMemento.internal.id="WS_REST_APP_02_messageAPP"/>
 </workingSet>
 <mruList name="Server"/>
 <mruList name="WS_REST_APP_01"/>

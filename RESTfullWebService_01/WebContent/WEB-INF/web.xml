@@ -10,11 +10,11 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   <servlet>
-  	<servlet-name>Jersey</servlet-name>
-  	<servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
+    <servlet-name>Jersey</servlet-name>
+    <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>Jersey</servlet-name>
-  	<url-pattern>/backend/*</url-pattern>
+    <servlet-name>Jersey</servlet-name>
+    <url-pattern>/backend/*</url-pattern>
   </servlet-mapping>
 </web-app>
