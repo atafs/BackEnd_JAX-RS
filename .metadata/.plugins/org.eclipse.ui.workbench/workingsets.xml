@@ -1,4 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1448309473725_1" label="WS_REST_APP_01" name="WS_REST_APP_01">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/RemoteSystemsTempFiles" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/RESTfullWebService_01" type="4"/>
+<item elementID="=RESTfullWebService_01" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=RESTfullWebService_02_CLIENT_Javascript" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=RESTfullWebService_03_CLIENT_Java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1448309545583_4" label="Server" name="Server">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Servers" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1448310105487_7" label="WS_REST_APP_02" name="WS_REST_APP_02">
+<item elementID="=ws_restfull_01" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ws_restfull_library" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1444189473064_0" label="Window Working Set" name="Aggregate for window 1444189473064"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1448310106766_8" label="Multiple Working Sets" name="Aggregate:Server:WS_REST_APP_01:">
+<workingSet IMemento.internal.id="Server"/>
+<workingSet IMemento.internal.id="WS_REST_APP_01"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1448310274660_12" label="Multiple Working Sets" name="Aggregate:Server:WS_REST_APP_01:WS_REST_APP_02:">
+<workingSet IMemento.internal.id="Server"/>
+<workingSet IMemento.internal.id="WS_REST_APP_01"/>
+<workingSet IMemento.internal.id="WS_REST_APP_02"/>
+</workingSet>
+<mruList name="Server"/>
+<mruList name="WS_REST_APP_01"/>
 </workingSetManager>
