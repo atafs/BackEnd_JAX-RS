@@ -10,13 +10,15 @@
 		<item value="true" key="BUILD_NOW"/>
 	</section>
 	<section name="ExternalProjectImportWizard">
-		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
-		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
-		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
 			<item value="D:\clouds\Drive Ilimitado\BackEnd_REST_httpCall_getData_doSomething\RESTfullWebService_03_CLIENT_Java"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\Americo\Downloads\JAX-RS-Hello-World-Jersey-Example.zip"/>
 			<item value=""/>
 		</list>
 	</section>
@@ -25,9 +27,15 @@
 		</list>
 	</section>
 	<section name="NewWizardAction">
+		<item value="org.eclipse.ui.wizards.new.project" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
 	</section>
 	<section name="ChooseWorkspaceDialogSettings">
 		<item value="619" key="DIALOG_X_ORIGIN"/>
 		<item value="280" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="BasicNewProjectResourceWizard">
 	</section>
 </section>
