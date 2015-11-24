@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;_2Messenger_library/LOCALHOST_02WS_REST_APP_01_messageAPP.txt&apos; to &apos;localhost.txt&apos;" description="Rename resource &apos;LOCALHOST_02WS_REST_APP_01_messageAPP.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="LOCALHOST_02WS_REST_APP_01_messageAPP.txt" name="localhost.txt" stamp="1448322737948" updateReferences="true"/>
+</session>
