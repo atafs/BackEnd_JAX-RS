@@ -1,0 +1,6 @@
+//PATH OF SERVER
+D:\clouds\Drive Ilimitado\BackEnd_JAX-RS_REST\_4CinemasEmCartaz\path\serverGLASSFISH
+
+//PATH OF CONFIG PROPERTIES
+D:\glassfish SERVER\glassfish-4.1\glassfish\domains\domain1\config
+
