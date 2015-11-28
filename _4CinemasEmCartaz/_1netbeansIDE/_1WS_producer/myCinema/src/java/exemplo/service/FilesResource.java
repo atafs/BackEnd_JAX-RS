@@ -16,7 +16,6 @@ import javax.ws.rs.PUT;
 
 /**
  * REST Web Service
- *
  * @author Americo
  */
 @Path("filmes")
