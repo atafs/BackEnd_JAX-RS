@@ -1,0 +1,2 @@
+//NETBEANS:
+alt+insert = generate constructor, getters and setters
