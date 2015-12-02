@@ -81,10 +81,4 @@ public class Filme {
     public void setDescription(String description) {
         this.description = description;
     }
-    
-    
-
-         
-            
-    
 }

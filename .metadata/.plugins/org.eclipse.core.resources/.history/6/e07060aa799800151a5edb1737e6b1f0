@@ -1,0 +1,7 @@
+package my1RestService;
+
+import javax.ws.rs.core.Application;
+
+public class RESTApplication extends Application {
+
+}

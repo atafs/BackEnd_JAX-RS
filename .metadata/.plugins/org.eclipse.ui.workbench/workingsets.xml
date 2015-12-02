@@ -15,7 +15,7 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/_2Messenger_library" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1448326381384_15" label="WS_REST_APP_03_start" name="WS_REST_APP_03_start">
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/_3indexAndLitlleMore_library" type="4"/>
+<item elementID="=my1RestService" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1444189473064_0" label="Window Working Set" name="Aggregate for window 1444189473064"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1448310106766_8" label="Multiple Working Sets" name="Aggregate:Server:WS_REST_APP_01:">
@@ -32,7 +32,7 @@
 <workingSet IMemento.internal.id="WS_REST_APP_01"/>
 <workingSet IMemento.internal.id="WS_REST_APP_02_messageAPP"/>
 </workingSet>
-<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1448326384504_16" label="Multiple Working Sets" name="Aggregate:Server:WS_REST_APP_01:WS_REST_APP_02_messageAPP:WS_REST_APP_03_start:">
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1449008288849_10" label="Multiple Working Sets" name="Aggregate:Server:WS_REST_APP_01:WS_REST_APP_02_messageAPP:WS_REST_APP_03_start:">
 <workingSet IMemento.internal.id="Server"/>
 <workingSet IMemento.internal.id="WS_REST_APP_01"/>
 <workingSet IMemento.internal.id="WS_REST_APP_02_messageAPP"/>
