@@ -1,0 +1,24 @@
+//#######################################################
+//Chrome: Avanced REST Client (install)
+https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo/related
+//USE IT
+chrome-extension://hgmloofddffdnphfgcellkdfbfbjeloo/RestClient.html
+
+//#######################################################
+//START
+http://localhost:9090/my1RestService/resources/employees
+//QUERY
+http://localhost:9090/my1RestService/resources/employees?sortBy=name
+
+//GOOD
+http://localhost:9090/my1RestService/resources/employees/id/12
+//WRONG(404 error)
+http://localhost:9090/my1RestService/resources/employees/id/aaa
+
+//XML
+http://localhost:9090/my1RestService/resources/employees/xml
+//JSON
+http://localhost:9090/my1RestService/resources/employees/json
+
+
+

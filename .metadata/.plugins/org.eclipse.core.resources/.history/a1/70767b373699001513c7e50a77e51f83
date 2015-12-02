@@ -1,0 +1,5 @@
+package my1RestService.model;
+
+public class Employee {
+
+}
