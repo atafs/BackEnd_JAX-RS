@@ -14,7 +14,7 @@ public class Employees {
 	}
 	
 	@GET
-	@Path("id/{identifier: [0-9]*}") //reg expression for only numbers
+	@Path("id/{identifier: [0-9]*}") //reg expression for only 0 to 9 numbers
 	public String getById(@PathParam("identifier") String myId) {
 		return myId;
 	}

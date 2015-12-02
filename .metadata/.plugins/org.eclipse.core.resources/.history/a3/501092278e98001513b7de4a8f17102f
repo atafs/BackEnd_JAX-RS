@@ -10,11 +10,11 @@ public class Employees {
 	
 	@GET
 	public String getEmployeeNames(@QueryParam("sortBy") String sortedBy) {
-		return "Americo, Tomas, Ana, Batalha, xxx " + "sorted by " + sortedBy;
+		return "Americo, Tomas, Ana, Batalha, xxx, yyy, zzz " + "sorted by " + sortedBy;
 	}
 	
 	@GET
-	@Path("id/{identifier: [0-9]*}") //reg expression for only numbers
+	@Path("id/{identifier: [0-9]*}")
 	public String getById(@PathParam("identifier") String myId) {
 		return myId;
 	}
