@@ -1,0 +1,24 @@
+//#######################################################
+//Chrome: Avanced REST Client (install)
+https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo/related
+//USE
+chrome-extension://hgmloofddffdnphfgcellkdfbfbjeloo/RestClient.html
+
+//#######################################################
+//START
+http://localhost:9090/my2CinemaEmCartaz/resources/filmes/json
+
+//
+http://localhost:9090/my2CinemaEmCartaz/resources/filmes?sorteBy=name
+//
+http://localhost:9090/my2CinemaEmCartaz/resources/filmes?sorteBy=1
+
+//CORRECT
+http://localhost:9090/my2CinemaEmCartaz/resources/filmes/id/0
+//WRONG
+http://localhost:9090/my2CinemaEmCartaz/resources/filmes/id/4
+http://localhost:9090/my2CinemaEmCartaz/resources/filmes/id/3333
+
+
+
+

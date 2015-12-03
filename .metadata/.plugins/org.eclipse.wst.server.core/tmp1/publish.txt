@@ -1,3 +1,5 @@
 #GlassFish 3
-#Wed Dec 02 21:32:39 GMT 2015
+#Thu Dec 03 00:21:19 GMT 2015
 org.eclipse.jst.jee.server\:my1RestService=D\:\\glassfish SERVER\\glassfish-4.1\\glassfish\\domains\\domain1\\eclipseApps\\my1RestService
+org.eclipse.jst.jee.server\:my2CinemaEmCartaz=D\:\\glassfish SERVER\\glassfish-4.1\\glassfish\\domains\\domain1\\eclipseApps\\my2CinemaEmCartaz
+org.eclipse.jst.jee.server\:my3CinemaEmCartazClient=D\:\\glassfish SERVER\\glassfish-4.1\\glassfish\\domains\\domain1\\eclipseApps\\my3CinemaEmCartazClient
