@@ -2,12 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="org.americo.lib"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="messenger"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -103,12 +101,14 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="org.americo.lib.my3Messenger"/>
 			<item value="org.americo.lib"/>
 		</list>
 		<list key="groupId">
 			<item value="org.americo.lib"/>
 		</list>
 		<list key="artifactId">
+			<item value="my3Messenger"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

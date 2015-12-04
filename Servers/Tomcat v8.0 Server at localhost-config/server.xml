@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="RESTfullWebService_02_CLIENT_Javascript" path="/RESTfullWebService_02_CLIENT_Javascript" reloadable="true" source="org.eclipse.jst.jee.server:RESTfullWebService_02_CLIENT_Javascript"/><Context docBase="RESTfullWebService_01" path="/RESTfullWebService_01" reloadable="true" source="org.eclipse.jst.jee.server:RESTfullWebService_01"/></Host>
+      <Context docBase="RESTfullWebService_02_CLIENT_Javascript" path="/RESTfullWebService_02_CLIENT_Javascript" reloadable="true" source="org.eclipse.jst.jee.server:RESTfullWebService_02_CLIENT_Javascript"/><Context docBase="RESTfullWebService_01" path="/RESTfullWebService_01" reloadable="true" source="org.eclipse.jst.jee.server:RESTfullWebService_01"/><Context docBase="my3Messenger" path="/my3Messenger" reloadable="true" source="org.eclipse.jst.jee.server:my3Messenger"/></Host>
     </Engine>
   </Service>
 </Server>

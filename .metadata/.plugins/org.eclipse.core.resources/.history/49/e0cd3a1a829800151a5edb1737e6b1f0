@@ -1,9 +1,0 @@
-//Chrome: Avanced REST Client (install)
-https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo/related
-//USE
-chrome-extension://hgmloofddffdnphfgcellkdfbfbjeloo/RestClient.html
-
-//#######################################################
-//START
-http://localhost:9090/my1RestService/resources/employees
-

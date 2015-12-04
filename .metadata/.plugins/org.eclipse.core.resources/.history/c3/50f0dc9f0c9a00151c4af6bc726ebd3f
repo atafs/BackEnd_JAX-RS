@@ -1,0 +1,35 @@
+package org.americo.lib.my3Messenger.service;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import org.americo.lib.my3Messenger.database.DatabaseClass;
+import org.americo.lib.my3Messenger.model.Message;
+
+public class MessageService {
+	
+	//ATTRIBUTES
+	private Map<Long, Message> messages = DatabaseClass.getMessages();
+	
+	/** Service: prints all messages to a list */
+	public List<Message> getAllMessages() {
+		//LIST
+		List<Message> list = new ArrayList<Message>();
+		
+		//DATA
+		Message m1 = new Message(1L, "my First JAX-RS", "AmericoTomas");
+		list.add(m1);
+		Message m2 = new Message(2L, "my Second JAX-RS", "AmericoTomas");
+		list.add(m2);
+		
+		//RETURN
+		return list;
+	}
+	
+	/** Service: prints all messages to a list */
+	public List<Message> getAllMessages_map() {
+		//ARRAYLIST IN MAP
+		return new ArrayList<Message>(messages.values());
+	}
+}

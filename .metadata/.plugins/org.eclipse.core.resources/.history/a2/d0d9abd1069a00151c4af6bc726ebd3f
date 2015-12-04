@@ -1,0 +1,13 @@
+package org.americo.lib.my3Messenger.model;
+
+import java.util.Date;
+
+//DAO CLASS
+public class Message {
+
+	//ATTRIBUTE
+	private long id;
+	private String message;
+	private Date created;
+	private String author;
+}

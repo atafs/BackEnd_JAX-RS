@@ -1,0 +1,23 @@
+package org.americo.lib.my3Messenger.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.americo.lib.my3Messenger.model.Message;
+
+public class MessageService {
+	
+	public List<Message> getAllMessages() {
+		//LIST
+		List<Message> list = new ArrayList<Message>();
+		
+		//DATA
+		Message m1 = new Message(1L, "my First JAX-RS", "AmericoTomas");
+		list.add(m1);
+		
+		Message m2 = new Message(1L, "my Second JAX-RS", "AmericoTomas");
+		list.add(m2);
+
+	}
+
+}
