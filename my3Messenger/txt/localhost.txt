@@ -1,5 +1,7 @@
 //##################################################
 //START
+localhost:8085/my3Messenger/americo/myresource
+
 localhost:8085/my3Messenger/americo/messages/start
 localhost:8085/my3Messenger/americo/messages/test
 localhost:8085/my3Messenger/americo/messages/test/1
