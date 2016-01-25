@@ -1,0 +1,5 @@
+package org.americo.lib.my3Messenger.service;
+
+public class ProfileService {
+
+}

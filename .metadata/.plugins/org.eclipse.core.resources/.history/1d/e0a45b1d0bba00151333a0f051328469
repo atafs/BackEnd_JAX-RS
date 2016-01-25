@@ -1,0 +1,24 @@
+package org.americo.lib.my3Messenger.resources;
+
+import javax.ws.rs.Consumes;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import org.americo.lib.my3Messenger.service.ProfileService;
+
+@Path("/profiles")
+@Consumes(MediaType.APPLICATION_JSON)
+@Produces(MediaType.APPLICATION_JSON)
+public class ProfileResource {
+	
+	//ATTRIBUTES
+	private ProfileService profileServices = new ProfileService();
+
+	@GET
+	public String get2Test(@PathParam("messageId") String messageId) {
+		return messageId + " = testing variable element... SUCCESS!!";
+	}
+}

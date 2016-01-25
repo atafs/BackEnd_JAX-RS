@@ -1,0 +1,10 @@
+package org.americo.lib.my3Messenger.resources;
+
+import org.americo.lib.my3Messenger.service.ProfileService;
+
+public class ProfileResource {
+	
+	//ATTRIBUTES
+	private ProfileService profileServices = new ProfileService();
+
+}

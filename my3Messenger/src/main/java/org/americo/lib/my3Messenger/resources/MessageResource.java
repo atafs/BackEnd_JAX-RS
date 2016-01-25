@@ -3,8 +3,10 @@ package org.americo.lib.my3Messenger.resources;
 import java.util.List;
 
 import javax.ws.rs.Consumes;
+import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
+import javax.ws.rs.PUT;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
@@ -14,6 +16,8 @@ import org.americo.lib.my3Messenger.model.Message;
 import org.americo.lib.my3Messenger.service.MessageService;
 
 @Path("/messages")
+@Consumes(MediaType.APPLICATION_JSON)
+@Produces(MediaType.APPLICATION_JSON)
 public class MessageResource {
 	
 	//ATTRIBUTES
@@ -91,21 +95,18 @@ public class MessageResource {
 	
 	@GET
 	@Path("/array/json")
-	@Produces(MediaType.APPLICATION_JSON)
 	public List<Message> getAllMessage_array_json() {
 		return messageService.getAllMessages_array();
 	}
 	
 	@GET
 	@Path("/map/json")
-	@Produces(MediaType.APPLICATION_JSON)
 	public List<Message> getAllMessages_map_json() {
 		return messageService.getAllMessages_map();
 	}
 	
 	@GET
 	@Path("/{messageId}")
-	@Produces(MediaType.APPLICATION_JSON)
 	public Message getMessage(@PathParam("messageId") long messageId) {
 		return messageService.getMessage(messageId);
 	}
@@ -113,21 +114,28 @@ public class MessageResource {
 	//POST########################################################
 	@POST
 	@Path("/test/post")
-	@Produces(MediaType.APPLICATION_XML)
 	public String addMessage() {	
 		return "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/sGbxmsDFVnE\" frameborder=\"0\" allowfullscreen></iframe>";
 	}
 	
 	@POST
 	@Path("/post")
-	@Consumes(MediaType.APPLICATION_JSON)
-	@Produces(MediaType.APPLICATION_JSON)
 	public Message addMessage(Message message) {
 		return messageService.addMessage(message);
 	}
-
-
 	
-
-
+	//PUT########################################################
+	@PUT
+	@Path("/{messageId}")
+	public Message updateMessage(@PathParam("messageId") long id, Message message) {
+		message.setId(id);
+		return messageService.updateMessage(message);
+	}
+	
+	//DELETE#####################################################
+	@DELETE
+	@Path("/{messageId}")
+	public void deleteMessage(@PathParam("messageId") long id) {
+		messageService.removeMessage(id);
+	}
 }

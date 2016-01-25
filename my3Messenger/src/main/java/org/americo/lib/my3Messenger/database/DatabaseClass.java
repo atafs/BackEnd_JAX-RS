@@ -11,14 +11,14 @@ public class DatabaseClass {
 	
 	//ATTRIBUTES (STATIC: STUB (HIBERNATE or JDBC))
 	private static Map<Long, Message> messages = new HashMap<>();
-	private static Map<Long, Profile> profiles = new HashMap<>();
+	private static Map<String, Profile> profiles = new HashMap<>();
 	
 	//GETTERS AND SETTERS
 	public static Map<Long, Message> getMessages() {
 		return messages;
 	}
 
-	public static Map<Long, Profile> getProfiles() {
+	public static Map<String, Profile> getProfiles() {
 		return profiles;
 	}
 }
